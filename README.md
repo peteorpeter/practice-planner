@@ -1,4 +1,5 @@
-# Youth Basketball Practice Planner
+# Youth Basketball Practice Planner  [![Build Status](https://travis-ci.org/peteorpeter/practice-planner.svg?branch=master)](https://travis-ci.org/peteorpeter/practice-planner.svg?branch=master)
+
 
 ## Based on: 
 
