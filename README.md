@@ -1,72 +1,27 @@
-# react-firebase-authentication
+# Youth Basketball Practice Planner
 
-[![Build Status](https://travis-ci.org/the-road-to-react-with-firebase/react-firebase-authentication.svg?branch=master)](https://travis-ci.org/the-road-to-react-with-firebase/react-firebase-authentication) [![Slack](https://slack-the-road-to-learn-react.wieruch.com/badge.svg)](https://slack-the-road-to-learn-react.wieruch.com/) [![Greenkeeper badge](https://badges.greenkeeper.io/the-road-to-react-with-firebase/react-firebase-authentication.svg)](https://greenkeeper.io/)
+## Based on: 
 
 * [Tutorial](https://www.robinwieruch.de/complete-firebase-authentication-react-tutorial/)
 * [Live Version of half of the Tutorial](https://react-firebase-authentication.wieruch.com/)
 
-## Variations
+## Tech stack
 
-* [Redux Version](https://github.com/the-road-to-react-with-firebase/react-redux-firebase-authentication)
-* [MobX Version](https://github.com/the-road-to-react-with-firebase/react-mobx-firebase-authentication)
-* [Gatsby Version](https://github.com/the-road-to-react-with-firebase/react-gatsby-firebase-authentication)
-* [Firestore Version](https://github.com/the-road-to-react-with-firebase/react-firestore-authentication)
-* [Semantic UI Version](https://github.com/the-road-to-react-with-firebase/react-semantic-ui-firebase-authentication)
-
-## Features
-
-* uses:
-  * only React (create-react-app)
+  * node (v10)
+  * yarn
+  * React (create-react-app)
   * firebase
   * react-router
-* features:
-  * Sign In
-  * Sign Up
-  * Sign Out
-  * Password Forget
-  * Password Change
-  * Verification Email
-  * Protected Routes with Authorization
-  * Roles-based Authorization
-  * Social Logins with Google, Facebook and Twitter
-  * Linking of Social Logins on Account dashboard
-  * Auth Persistence with Local Storage
-  * Database with Users and Messages
+  
+## Dev Setup
 
-## License
-
-### Commercial license
-
-If you want to use this starter project to develop commercial sites, themes, projects, and applications, the Commercial license is the appropriate license. With this option, your source code is kept proprietary. Purchase an commercial license for different team sizes:
-
-* [1 Developer](https://gum.co/react-with-firebase-starter-pack-developer)
-* [Team of up to 8 Developers](https://gum.co/react-with-firebase-starter-pack-team)
-* [Unlimited Developers of an Organization](https://gum.co/react-with-firebase-starter-pack-organization)
-
-It grants you also access to the other starter projects in this GitHub organization.
-
-### Open source license
-
-If you are creating an open source application under a license compatible with the [GNU GPL license v3](https://www.gnu.org/licenses/gpl-3.0.html), you may use this starter project under the terms of the GPLv3.
-
-## Installation
-
-* `git clone git@github.com:the-road-to-react-with-firebase/react-firebase-authentication.git`
-* `cd react-firebase-authentication`
-* `npm install`
-* `npm start`
+* `yarn`
+* `yarn run start`
 * visit http://localhost:3000
 
-Get an overview of Firebase, how to create a project, what kind of features Firebase offers, and how to navigate through the Firebase project dashboard in this [visual tutorial for Firebase](https://www.robinwieruch.de/firebase-tutorial/).
+## Firebase Configuration
 
-### Firebase Configuration
-
-* copy/paste your configuration from your Firebase project's dashboard into one of these files
-  * *src/components/Firebase/firebase.js* file
-  * *.env* file
-  * *.env.development* and *.env.production* files
-
-The *.env* or *.env.development* and *.env.production* files could look like the following then:
+* copy/paste your configuration from your Firebase project's dashboard into a *.env* file:
 
 ```
 REACT_APP_API_KEY=AIzaSyBtxZ3phPeXcsZsRTySIXa7n33NtQ
