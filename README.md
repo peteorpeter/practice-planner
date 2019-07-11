@@ -1,4 +1,4 @@
-# Youth Basketball Practice Planner  [![Build Status](https://travis-ci.org/peteorpeter/practice-planner.svg?branch=master)](https://travis-ci.org/peteorpeter/practice-planner.svg?branch=master)
+# Youth Basketball Practice Planner  [![Build Status](https://travis-ci.org/peteorpeter/practice-planner.svg?branch=master)](https://travis-ci.org/peteorpeter/practice-planner.svg?branch=master) [![Netlify Status](https://api.netlify.com/api/v1/badges/91b01fa2-65d8-4a16-b018-f50da160c4c8/deploy-status)](https://app.netlify.com/sites/jolly-mestorf-df6455/deploys)
 
 
 ## Based on: 
