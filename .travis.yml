@@ -1,10 +1,15 @@
 language: node_js
 
 node_js:
-  - '10'
+- '10'
 
 install:
-  - npm install
+- yarn
 
 script:
-  - npm test
+- yarn run test
+
+deploy:
+  provider: firebase
+  token:
+    secure: "UOrSNdH2RHwZYmcyTY//lpw6uTDtvVKVlxZFBELcdXmcFkhsTNZdV5NVvuBzwRfv0QAqi+nb2iGWW24LSirlV3WhudhvNjz1QWv2W7tsejgKViOltnINryj/bOXcWHAWGfi2RM7KAVidBnvm+aZi6OMD1yEZijdukb0z4UY21q+uYP9/uCFL8gNHneLQ4lVmkHgeQOOX8m99VfwttIuZ15BqGEeBTnAqQCeCI5doorYDC+r0rlwxf5+Ys1A9U0VyJb7i4QInji89nZ9XC+c6Hr8SY77mDqo9yMJYu9Ewj1areXiJOZvtvLl1RPm78A8IxHsd5662L40DJfeGGaKGjlQEUlVA4IrV8oirQOpQWqyYdf8cRgHgJnPtWPZ2N5B/d8DhunlpNv0Aedws009JpBg2XjcSFpS27UqknAItaooy8bsomgYB3Usk2+h8AqQmX0bjRRs+7/DtyfJU5ozFHQE/kCSbgKcmPgLOl8FTYrz25FcRwMuTE5xpqiiYddaaGsolOrnql/bHCuD9t/lNl5YgQRCKMc3DgZKwdvncmv5i5G1K/kH//5++7h5nimEbemzlr7F3vvCtNoxID8ur1/ALtyiDWzggkzBgjGvN7jxjIj2Qe2M9agCCQckWtJJyz0bDY5k6vAm5JUN49sKoR6GmVs6DHhPITGra1hC21NM="
