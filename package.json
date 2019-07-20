@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "firebase": "^6.2.4",
+    "firebase-tools": "^7.1.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-router-dom": "^5.0.1",
@@ -14,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --passWithNoTests",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "firebase deploy --project ybd-practice-planner"
   },
   "browserslist": [
     ">0.2%",
